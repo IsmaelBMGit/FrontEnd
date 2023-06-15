@@ -1,0 +1,94 @@
+#eventContainer {
+  margin-top: 5em;
+  width: 80%;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.8);
+  font-family: Zilla Slab;
+  font-size: 25px;
+  margin-bottom: 1em;
+}
+
+#eventInputSearch {
+  border: 1px solid rgb(24, 24, 8);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+}
+
+#eventSelectProvince,
+#eventSelectMunicipe {
+  appearance: none;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+}
+
+
+
+#eventCardHorizontal {
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  margin-top: 2em;
+  border: 3px solid black;
+  box-shadow: 2px 2px 5px 5px rgba(255, 0, 0, 0.5);
+}
+
+#containerEventCard :hover{
+  cursor:pointer;
+  animation: pulse 1s;
+}
+
+#eventImgCard {
+  object-fit: cover;
+  min-height:100%;
+  width: 200px;
+}
+
+#eventCardBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column; 
+  min-height: 100%;
+}
+
+#eventCardContent{
+  min-height: 100%;
+}
+
+#eventCardText {
+  letter-spacing: 0.1rem;
+
+}
+
+#handSearch{
+  color: red;
+
+}
+
+.swal-content {
+  font-size: 20px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+}
+
+.swal-label {
+  font-weight: bold;
+}
+
+.swal-value {
+  font-size: 20px;
+  color: rgba(0, 0, 255, 0.544);
+}
+
+.locked-event{
+  opacity: 0.5;
+}

@@ -1,0 +1,22 @@
+#adminNavBar {
+    font-family: Zilla Slab;
+    font-weight: bold;
+    font-size: 1.2em;
+    z-index: 9999;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /*AGREGA UNA SOMBRA AL BORDE INFERIOR*/
+}
+
+#adminTitleNavBar {
+    font-family: Oleo Script;
+    font-size: 35px;
+}
+
+#adminTitleNavBar:hover {
+    animation: pulse 2s;
+}
+
+li.nav-item:hover {
+    animation: pulse 2s;
+}

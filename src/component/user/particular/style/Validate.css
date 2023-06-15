@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .centered {
+    text-align: center;
+    font-weight: bold;
+    font-size:3em;
+    animation: bounce 3s;
+  }
+  

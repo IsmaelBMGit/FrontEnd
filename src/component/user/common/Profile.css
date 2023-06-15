@@ -1,0 +1,40 @@
+#rootProfile{
+    padding-top: 10em;
+    background: 
+    radial-gradient(circle at 50.0077470143636% 76.93749745686848%, rgba(97, 24, 201, 0.2) 0%, 18.24%, rgba(97, 24, 201, 0) 32%),
+    radial-gradient(circle at 87.50774383544922% 46.09374682108561%, rgb(230, 97, 40, 0.24) 0%, 16.33%, rgba(233, 100, 43, 0) 23%),
+    radial-gradient(circle at 10.666775703430176% 5.388943354288736%, rgb(144, 159, 255) 0%, 26.24%, rgba(97, 24, 201, 0) 41%),
+    radial-gradient(circle at 48.9013671875% 49.521484375%, #F7F7F7 0%, 100%, rgba(247, 247, 247, 0) 100%);
+}
+
+#profile{
+    border: 1px solid yellow;
+    box-shadow: 2px 2px 10px 10px rgba(255, 0, 0, 0.8);
+    width: 90%;
+    font-family: Zilla Slab;
+}
+
+#loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#loadingProfile{
+    padding-top:10em;
+    padding-bottom: 5em;
+}
+
+.formControl{
+    font-size: 25px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 0, 0, 0.5);
+}
+
+#readOnly{
+    color: blue;
+}
+
+#labelProfile{
+    font-size:25px;
+}

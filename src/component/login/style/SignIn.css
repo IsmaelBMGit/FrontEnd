@@ -1,0 +1,37 @@
+.login,
+.image {
+  min-height: 100vh;
+  font-size: 18px;
+}
+.bg-image {
+  background-image: url(../image/register-login.webp);
+  background-size: cover;
+  background-position: center center;
+}
+
+.form-check-input{
+  border: 2px solid black;
+}
+
+.form-check-label{
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.form-control.rounded-pill{
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,1);
+} 
+
+
+img{
+    width: 50%;
+    height: 10%;
+}
+
+
+
+
+
+
+

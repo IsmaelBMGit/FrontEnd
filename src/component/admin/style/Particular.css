@@ -1,0 +1,50 @@
+#particularContainer {
+    margin-top: 5em;
+    width: 80%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.8);
+    font-family: Zilla Slab;
+    font-size:25px
+}
+
+
+#particularContainerTable {
+    margin-top: 2em;
+    overflow-x: auto;
+    text-align: center;
+}
+
+#particularTable {
+    width: 100%;
+}
+
+
+#particularBtnOptions, #particularBtnDelete{
+    padding: 0.5em;
+    font-size: 20px;
+    
+}
+
+
+#particularInputSearch{
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    #particularContainer {
+        width: 80%;
+        display: block !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+        
+
+    }
+
+}
+
+#particularTable th:hover{
+    cursor: pointer;
+}
